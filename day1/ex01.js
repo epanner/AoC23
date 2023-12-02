@@ -1,12 +1,4 @@
 // First, the helper functions are defined.
-function sumArray(arr) {
-    let sum = 0;
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
-    return sum;
-}
-
 function findFristNumber(str) {
     const match = str.match(/\d/);
 
@@ -15,10 +7,6 @@ function findFristNumber(str) {
 
 function reverseString(str) {
     return str.split('').reverse().join('');
-}
-
-function splitOnLineBreaks(inputString) {
-    return inputString.split('\n');
 }
 
 function processLine(str) {
